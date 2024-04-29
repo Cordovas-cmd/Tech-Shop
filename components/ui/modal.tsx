@@ -1,5 +1,8 @@
 "use client";
 
+
+// be careful when importing shadcn components because the names are the same in Radix. Make sure it's from shadcn
+
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 interface ModalProps {
